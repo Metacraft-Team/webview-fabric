@@ -8,7 +8,7 @@
 [![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UC-fAgQr5lxNVZU4_LVXmKOg?style=for-the-badge&label=Youtube%20Views)](https://www.youtube.com/channel/UC-fAgQr5lxNVZU4_LVXmKOg)
 
 ## What is this
-It can open any custom web browser in Minecraft. This was initialy made for [Metacraft](https://metacraft.cc/)
+It can open any web page in Minecraft. This was initialy made for [Metacraft](https://metacraft.cc/)
 
 it looks like [MCEF](https://github.com/montoyo/mcef), what is the difference: this mode is working on fabric with higher Chromium Embedded Framework version.
 
