@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "metapainting",
+  "version": "${version}",
+
+  "name": "Meta Painting",
+  "description": "creating meta painting for url",
+  "authors": [
+    "wupengyang"
+  ],
+  "contact": {
+    "homepage": "https://github.com/wupengyang1995/MC-MetaPainting-Mod",
+    "sources": "https://github.com/wupengyang1995/MC-MetaPainting-Mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/metapainting/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.metacraft.mod.PaintingModInitializer"
+    ],
+    "client": [
+      "net.metacraft.mod.ExampleClientMod"
+    ]
+  },
+  "mixins": [
+    "painting.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

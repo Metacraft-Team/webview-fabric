@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.metacraft.mod.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "MixinPlayer"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
